@@ -1,0 +1,292 @@
+.Contuct-Us{
+    margin-top: 150px;
+}
+
+.Contuct-us-image-contucts{
+    max-width: 1440px;
+    height: 533px;
+    position: relative;
+    overflow: visible;
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+.Contuct-us-image1{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -185px;
+    width: 800px;
+    height: 533px;
+    object-fit: contain;
+}
+
+.overlay {
+    margin-top: 10px;
+    margin-left: 332px;
+    position: absolute;
+    width: 218px; 
+    height: 533px;
+    background: rgb(18, 20, 29);
+}
+
+.contuct-us-info{
+    margin-top: 10px;
+    margin-left: 650px;
+    max-width: 550px;
+    max-height: 525px;
+}
+
+.contuct-us-title-text{
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 88px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.contuct-us-info-name{
+    margin-top: 63px;
+    width: 495px;
+    height: 45px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgb(18, 20, 29);
+
+}
+.name-text-contuct{
+    padding-top: 15px;
+    padding-left: 28px;
+}
+
+.name-text-contuct::placeholder{
+
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.contuct-us-info-mail{
+    margin-top: 20px;
+    width: 495px;
+    height: 45px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgb(18, 20, 29);
+
+}
+.mail-text-contuct{
+    padding-top: 15px;
+    padding-left: 28px;
+}
+
+.mail-text-contuct::placeholder{
+
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.contuct-us-info-url{
+    margin-top: 20px;
+    width: 495px;
+    height: 45px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgb(18, 20, 29);
+
+}
+.url-text-contuct{
+    padding-top: 15px;
+    padding-left: 27px;
+}
+
+.url-text-contuct::placeholder{
+
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.contuct-us-info-roject{
+    margin-top: 20px;
+    width: 495px;
+    height: 104px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgb(18, 20, 29);
+
+}
+.project-text-contuct{
+    padding-top: 15px;
+    padding-left: 27px;
+}
+
+.project-text-contuct::placeholder{
+
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.btn3, a.btn3 {
+    margin-top: 21px;
+    display: inline-block;
+    height: 43px;
+    padding-left: 15px;
+    padding-right: 14px;
+    padding-top: 10px;
+    background-color: #C6100F;
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+
+    letter-spacing: 0%;
+    text-align: center;
+    
+
+}
+
+@media (max-width: 1025px) {
+    .Contuct-us-image-contucts{
+        max-width: 1025px;
+        height: 533px;
+    }
+    
+    .Contuct-us-image1{
+        position: absolute;
+        margin-top: 10px;
+        margin-left: -185px;
+        max-width: 600px;
+        width: 100%;
+        height: 533px;
+        object-fit: contain;
+    }
+    
+    .overlay {
+        margin-top: 37px;
+        margin-left: 300px;
+        position: absolute;
+        width: 118px;
+        height: 480px;
+        background: rgb(18, 20, 29);
+    }
+    
+    .contuct-us-info{
+        margin-top: 10px;
+        margin-left: 470px;
+        max-width: 550px;
+        max-height: 525px;
+    }
+
+    .contuct-us-title-text{
+        font-size: 75px;
+    }
+
+    .contuct-us-info-name{
+        margin-top: 35px;
+    }
+
+    .btn3, a.btn3 {
+        font-weight: 400;
+    }
+}
+
+
+@media (max-width: 770px) {
+    .Contuct-us-image-contucts{
+        max-width: 770px;
+        height: 533px;
+    }
+    
+    .Contuct-us-image1{
+        position: absolute;
+        margin-top: 40px;
+        margin-left: -165px;
+        max-width: 480px;
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+    
+    .overlay {
+        margin-top: 39px;
+        margin-left: 225px;
+        position: absolute;
+        width: 90px;
+        height: 383px;
+        background: rgb(18, 20, 29);
+    }
+    
+    .contuct-us-info{
+        margin-top: 10px;
+        margin-left: 370px;
+        max-width: 450px;
+        max-height: 525px;
+    }
+
+    .contuct-us-title-text{
+        font-size: 58px;
+    }
+
+    .contuct-us-info-name{
+        margin-top: 10px;
+        width: 350px;
+    }
+    
+    .name-text-contuct::placeholder{
+        font-size: 18px;
+    }
+    
+    .contuct-us-info-mail{
+        margin-top: 20px;
+        width: 350px;
+    }
+    
+    .mail-text-contuct::placeholder{
+        font-size: 18px;
+    }
+    
+    .contuct-us-info-url{
+        width: 350px;
+    
+    }
+    
+    .url-text-contuct::placeholder{
+        font-size: 18px;
+    }
+    
+    .contuct-us-info-roject{
+        width: 350px;
+        height: 45px;
+    
+    }
+    
+    .project-text-contuct::placeholder{
+        font-size: 18px;
+    }
+    
+    .btn3, a.btn3 {
+        margin-top: 20px;
+        font-weight: 400;
+    }
+}

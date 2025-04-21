@@ -1,0 +1,271 @@
+.our-skills{
+    max-height: 533.33px;
+    height: 100%;
+    position: relative;
+    margin-top: 169px;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.block-our-skills{
+    margin-left: 120px;
+
+}
+
+.our-skills-title-block{
+    margin-top: 75px;
+}
+
+.our-skills-title{
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 88px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+
+.block-skills-percents{
+    margin-top: 61.55px;
+}
+
+.skil-block1{
+    display: flex;
+    justify-content: space-between; /* Распределение текста */
+    align-items: center;
+}
+
+
+.Graphic-Design-text{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.Graphic-Design-percents-block{
+    margin-right: 6px;
+}
+
+.Graphic-Design-percents{
+    
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.graphic-design-line{
+    margin-top: 10.45px;
+    width: 396px;
+    height: 2px;
+    background: rgb(198, 16, 15);
+}
+
+.skil-block2{
+    margin-top: 19.55px;
+    display: flex;
+    justify-content: space-between; /* Распределение текста */
+    align-items: center;
+}
+
+
+.Lead-Generation-text{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.Lead-Generation-percents-block{
+    margin-right: 1px;
+}
+
+.Lead-Generation-percents{
+
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.Lead-Generation-line{
+    margin-top: 11px;
+    width: 203px;
+    height: 2px;
+    background: rgb(198, 16, 15);
+}
+
+.skil-block3{
+    margin-top: 19.55px;
+    display: flex;
+    justify-content: space-between; /* Распределение текста */
+    align-items: center;
+}
+
+
+.Photoshop-text{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.Photoshop-percents-block{
+    margin-right: 6px;
+}
+
+.Photoshop-percents{
+    
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.Photoshop-line{
+    margin-top: 10.45px;
+    width: 347px;
+    height: 2px;
+    background: rgb(198, 16, 15);
+}
+
+.skil-block4{
+    margin-top: 19.55px;
+    display: flex;
+    justify-content: space-between; /* Распределение текста */
+    align-items: center;
+}
+
+
+.Illustration-text{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.Illustration-percents-block{
+    margin-right: 2px;
+}
+
+.Illustration-percents{
+    
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.Illustration-line{
+    margin-top: 10.45px;
+    width: 495px;
+    height: 2px;
+    background: rgb(198, 16, 15);
+}
+
+.our-skills-txt-for-block{
+    margin-top: 15px;
+    max-width: 417px;
+    max-height: 20px;
+}
+
+.our-skills-txt{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.our-skills-image{
+
+    max-width: 800px;
+    max-height: 533px;
+    object-fit: contain;
+    margin-left: 100px;
+    margin-top: 0px
+}
+
+
+@media (max-width:1025px) {
+    .our-skills-image{
+        max-width: 500px;
+        margin-left: 40px;
+    }
+
+    .block-our-skills{
+        margin-left: 40px;
+    
+    }
+    
+    .our-skills-title-block{
+        margin-top: 10px;
+    }
+    
+    .our-skills-title{
+        font-size: 75px;
+    }
+}
+
+@media (max-width:770px) {
+
+    .our-skills{
+        margin-top: 140px;
+        align-items: center;
+    }
+    .our-skills-image{
+        display: none;
+    }
+
+    .block-our-skills{
+        margin-left: 140px;
+    
+    }
+    
+    
+    .our-skills-title-block{
+        margin-top: 10px;
+        margin-left: 35px;
+    }
+    
+    .our-skills-title{
+        font-size: 75px;
+    }
+}

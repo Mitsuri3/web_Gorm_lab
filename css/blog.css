@@ -1,0 +1,150 @@
+.blog{
+    margin-top: 158px;
+}
+
+.blog-title{
+    
+    margin-left: -2px;
+}
+
+.blog-title-text{
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 88px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.blog-images-block{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 82px;
+    margin-left: 180px;
+    max-width: 840px;
+    height: auto;
+}
+
+.blokk{
+    
+    background: rgb(18, 20, 29);
+}
+
+.blog-images-block1{
+    
+    max-height: 552px;
+}
+
+.blog-botton1, a.blog-botton1{
+    margin-top: 30px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 18px;
+    display: inline-block;
+    background: rgb(255, 149, 215);
+    color: white;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;
+
+}
+
+.block-blog-text1{
+    margin-top: 21px;
+    max-width: 321px;
+    max-height: 150px;
+}
+
+.blog-text1{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39.6px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.block-for-read-more{
+    margin-top: 26px;
+}
+
+.read-more, a.read-more{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+.blog-botton2, a.blog-botton2{
+    margin-top: 30px;
+    padding-top: 5px;
+    padding-left: 13px;
+    padding-right: 15px;
+    display: inline-block;
+    background: rgb(255, 110, 110);
+    color: white;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;
+
+}
+
+.blog-text2{
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 39.6px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1025px) {
+    .blog-title-text{
+        font-size: 75px;
+    }
+    
+    .blog-images-block{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        margin-left: 78px;
+        max-width: 840px;
+        height: auto;
+    }
+}
+
+@media (max-width: 770px) {
+
+    .blog{
+        margin-top: 30px;
+    }
+    .blog-title-text{
+        font-size: 58px;
+    }
+    
+    .blog-images-block{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        margin-top: 50px;
+        max-width: 488px;
+        height: auto;
+    }
+
+    .blokk{
+        margin-left: 95px;
+    }
+}
